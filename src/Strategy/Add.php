@@ -14,14 +14,14 @@ class Add extends AbstractStrategy implements StrategyInterface
 
         )) {
             return $sourceCode;
+        } else {
+            return preg_replace(
+                '/(\s*)<\?php(\s*)/i',
+                "$1<?php$2declare(strict_types=1);\n",
+                $sourceCode,
+                1,
+                $this->isAffected
+            );
         }
-
-        return preg_replace(
-            '/(\s*)<\?php(\s*)/i',
-            "$1<?php$2declare(strict_types=1);\n",
-            $sourceCode,
-            1,
-            $this->isAffected
-        );
     }
 }
