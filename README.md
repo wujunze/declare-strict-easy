@@ -13,7 +13,7 @@ WARNING: before run command ensure that you have backup of your files!!!
 
 Install via composer
 
-`composer require-dev wujunze/declare-strict-easy`
+`composer require --dev wujunze/declare-strict-easy`
 
 Run command to add "declare(strict_types=1)" in all files in specified folders
 
