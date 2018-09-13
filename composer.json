@@ -1,0 +1,40 @@
+{
+    "name": "wujunze/declare-strict-easy",
+    "description": "PHP7 tool for easy add/remove \"declare(strict_types=1)\"",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wujunze",
+            "email": "itwujunze@gamil.com"
+        },
+        {
+            "name": "dypa",
+            "email": "dypa@bk.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/console": "^4.1",
+        "symfony/finder": "^4.1",
+        "phpunit/phpunit": "^7.3"
+    },
+    "require-dev": {
+    },
+    "bin": [
+        "bin/declare_strict_types"
+    ],
+    "scripts": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Dypa\\DeclareStrictTypes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}

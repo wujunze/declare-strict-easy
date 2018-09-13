@@ -1,0 +1,9 @@
+{
+    "timeout": 10,
+    "source": {
+        "directories": [
+            "bin",
+            "src"
+        ]
+    }
+}
