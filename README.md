@@ -1,6 +1,6 @@
 # PHP7 tool for easy add/remove "declare(strict_types=1)"
 
-[![Build Status](https://travis-ci.org/wujunze/declare-strict-easy.png)](//travis-ci.org/wujunze/declare-strict-easy)
+[![Build Status](https://travis-ci.org/wujunze/declare-strict-easy.svg?branch=master)](https://travis-ci.org/wujunze/declare-strict-easy)
 [![Latest Stable Version](https://poser.pugx.org/wujunze/declare-strict-easy/v/stable.png)](//packagist.org/packages/wujunze/declare-strict-easy)
 [![Latest Unstable Version](https://poser.pugx.org/wujunze/declare-strict-easy/v/unstable.png)](//packagist.org/packages/wujunze/declare-strict-easy)
 [![Total Downloads](https://poser.pugx.org/wujunze/declare-strict-easy/downloads.png)](//packagist.org/packages/wujunze/declare-strict-easy)
