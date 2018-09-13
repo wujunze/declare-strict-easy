@@ -1,7 +1,5 @@
 <?php
 
-require_once __DIR__.'/../vendor/autoload.php';
-
 use Dypa\DeclareStrictTypes\Command;
 use Symfony\Component\Console\Application as ConsoleApplication;
 
