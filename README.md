@@ -9,6 +9,9 @@ Enable strict typing in your project with one command. Based on PCRE and support
 
 WARNING: before run command ensure that you have backup of your files!!!
 
+## Base on [declare-strict-types](https://github.com/dypa/declare-strict-types)
+## Thanks to [declare-strict-types](https://github.com/dypa/declare-strict-types)
+
 ## Usage 
 
 Install via composer
